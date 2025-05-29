@@ -30,6 +30,7 @@ import {
   Eye,
 } from "lucide-react"
 
+
 export default function DigitalAgencyWebsite() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
@@ -218,8 +219,9 @@ export default function DigitalAgencyWebsite() {
       <nav className="fixed top-0 w-full bg-black/90 backdrop-blur-md z-50 border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold gradient-text animate-pulse-glow hardware-accelerated">DigitalCraft</h1>
+            <div className="flex gap-[10px] flex-row-reverse items-center justify-center">
+              <h1 className="text-2xl font-bold h-[60px] hardware-accelerated  mt-[25px] "> MARKITFY</h1>
+              <img src='logo.jpg' className="w-[50px]" />
             </div>
 
             {/* Desktop Navigation */}
@@ -582,13 +584,13 @@ export default function DigitalAgencyWebsite() {
 
             <button
               onClick={() => setCurrentTestimonial((prev) => (prev - 1 + testimonials.length) % testimonials.length)}
-              className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-12 bg-gray-800 hover:bg-gray-700 p-2 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg hardware-accelerated"
+              className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-12 bg-gray-800 hover:bg-gray-700 p-2 rounded-full transition-all duration-300  hover:shadow-lg hardware-accelerated"
             >
               <ChevronLeft className="h-6 w-6" />
             </button>
             <button
               onClick={() => setCurrentTestimonial((prev) => (prev + 1) % testimonials.length)}
-              className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-12 bg-gray-800 hover:bg-gray-700 p-2 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg hardware-accelerated"
+              className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-12 bg-gray-800 hover:bg-gray-700 p-2 rounded-full transition-all duration-300  hover:shadow-lg hardware-accelerated"
             >
               <ChevronRight className="h-6 w-6" />
             </button>
@@ -640,7 +642,8 @@ export default function DigitalAgencyWebsite() {
             >
               <Card className="bg-gray-900/50 border-gray-800 hover:border-cyan-500/30 transition-all duration-500">
                 <CardContent className="p-8">
-                  <form className="space-y-6">
+                  <form className="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="46f52146-9254-4092-b088-d67ce2f8f356"></input>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-sm font-medium text-gray-300 mb-2">Name</label>
@@ -720,7 +723,7 @@ export default function DigitalAgencyWebsite() {
                     </div>
                     <div>
                       <p className="text-gray-300">Email</p>
-                      <p className="text-white font-semibold">hello@digitalcraft.com</p>
+                      <p className="text-white font-semibold">markitfy.india@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4 group">
@@ -783,7 +786,7 @@ export default function DigitalAgencyWebsite() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
-              <h3 className="text-2xl font-bold gradient-text mb-4">DigitalCraft</h3>
+              <h3 className="text-2xl font-bold gradient-text mb-4">MARKITFY</h3>
               <p className="text-gray-300 mb-4 max-w-md">
                 We're a digital agency specializing in web development, mobile apps, and creative design solutions. Let
                 us help you build your digital future.
@@ -865,8 +868,8 @@ export default function DigitalAgencyWebsite() {
             <div>
               <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
               <ul className="space-y-2">
-                <li className="text-gray-300">hello@digitalcraft.com</li>
-                <li className="text-gray-300">+1 (555) 123-4567</li>
+                <li className="text-gray-300">markitfy.india@gmail.com</li>
+                <li className="text-gray-300">+91 97180-39346</li>
                 <li className="text-gray-300">
                   123 Digital Street
                   <br />
@@ -877,7 +880,7 @@ export default function DigitalAgencyWebsite() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p className="text-gray-400">© {new Date().getFullYear()} DigitalCraft. All rights reserved.</p>
+            <p className="text-gray-400">© {new Date().getFullYear()} MARKITFY. All rights reserved.</p>
           </div>
         </div>
       </footer>
