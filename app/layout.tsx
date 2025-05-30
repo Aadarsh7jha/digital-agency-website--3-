@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
+
+
 export const metadata: Metadata = {
   title: 'Affordable Website Design & Development Services in Delhi',
   description: 'Professional website design and development services in Delhi. We specialize in responsive, SEO-friendly websites tailored to your business needs.',

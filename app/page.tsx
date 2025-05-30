@@ -214,12 +214,14 @@ export default function DigitalAgencyWebsite() {
     setIsMenuOpen(false)
   }
 
+  
+
   return (
 <>
 
 
 
-    
+    <link rel="icon" type="image/png" href="logo.jpg"></link>
      
 
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
@@ -229,7 +231,7 @@ export default function DigitalAgencyWebsite() {
           <div className="flex justify-between items-center h-16">
             <div className="flex gap-[10px] flex-row-reverse items-center justify-center">
               <h1 className="text-2xl font-bold h-[60px] hardware-accelerated  mt-[25px] "> MARKITFY</h1>
-              <img src='logo.jpg' className="w-[50px]" />
+              <img src='logo.jpg' className="w-[40px]" />
             </div>
 
             {/* Desktop Navigation */}
