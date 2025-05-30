@@ -31,6 +31,7 @@ import {
 } from "lucide-react"
 
 
+
 export default function DigitalAgencyWebsite() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
@@ -214,6 +215,13 @@ export default function DigitalAgencyWebsite() {
   }
 
   return (
+<>
+
+
+
+    
+     
+
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/90 backdrop-blur-md z-50 border-b border-gray-800">
@@ -885,5 +893,7 @@ export default function DigitalAgencyWebsite() {
         </div>
       </footer>
     </div>
+
+    </>
   )
 }

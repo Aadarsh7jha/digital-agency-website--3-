@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Affordable Website Design & Development Services in Delhi',
+  description: 'Professional website design and development services in Delhi. We specialize in responsive, SEO-friendly websites tailored to your business needs.',
+  keywords: 'website design Delhi, custom website development, responsive websites, SEO-friendly websites, small business website design,custom web app development Delhi,affordable graphic designing services,affordable SEO services Delhi',
   generator: 'v0.dev',
 }
 
