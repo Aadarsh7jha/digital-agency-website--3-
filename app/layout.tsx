@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-
-
 export const metadata: Metadata = {
   title: 'Affordable Website Design & Development Services in Delhi',
   description: 'Professional website design and development services in Delhi. We specialize in responsive, SEO-friendly websites tailored to your business needs.',
@@ -15,9 +13,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+    
   return (
+   <>
+    <head>
+      <meta name="google-site-verification" content="IbVPW_wRQEXAX11JLh9K14mScwq-jKVNwa6pexSX8d4" />
+    </head>
     <html lang="en">
       <body>{children}</body>
     </html>
+   </>
+
   )
 }
