@@ -769,14 +769,9 @@ export default function DigitalAgencyWebsite() {
                   >
                     <Facebook className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
                   </a>
+                 
                   <a
-                    href="#"
-                    className="bg-gray-800 hover:bg-cyan-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
-                  >
-                    <Twitter className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
-                  </a>
-                  <a
-                    href="#"
+                    href="https://www.instagram.com/markitfy.in/"
                     className="bg-gray-800 hover:bg-cyan-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
                   >
                     <Instagram className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
