@@ -324,10 +324,10 @@ export default function DigitalAgencyWebsite() {
             We Build Stunning{" "}
             <span className="gradient-text animate-gradient-x hardware-accelerated">Websites & Web Apps</span>
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-300 mb-8 animate-fade-in-up animation-delay-200 hardware-accelerated">
+          <h1 className="text-xl sm:text-2xl text-gray-300 mb-8 animate-fade-in-up animation-delay-200 hardware-accelerated">
             Transform your digital presence with cutting-edge web development, mobile apps, and creative design
             solutions.
-          </p>
+          </h1>
           <Button
             onClick={() => scrollToSection("contact")}
             className="btn-gradient text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 animate-fade-in-up animation-delay-400 hardware-accelerated hover:shadow-2xl hover:shadow-cyan-500/25"
@@ -357,9 +357,9 @@ export default function DigitalAgencyWebsite() {
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
               Our <span className="gradient-text">Services</span>
             </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            <h1 className="text-xl text-gray-300 max-w-3xl mx-auto">
               We offer comprehensive digital solutions to help your business thrive in the modern world.
-            </p>
+            </h1>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -754,7 +754,7 @@ export default function DigitalAgencyWebsite() {
                     </div>
                     <div>
                       <p className="text-gray-300">Address</p>
-                      <p className="text-white font-semibold">123 Digital Street, Tech City, TC 12345</p>
+                      <p className="text-white font-semibold">45A, Institutional Area, Vishwas Nagar, Shahdara, Delhi, 110032</p>
                     </div>
                   </div>
                 </div>
@@ -800,10 +800,10 @@ export default function DigitalAgencyWebsite() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
               <h3 className="text-2xl font-bold gradient-text mb-4">MARKITFY</h3>
-              <p className="text-gray-300 mb-4 max-w-md">
-                We're a digital agency specializing in web development, mobile apps, and creative design solutions. Let
+              <h1 className="text-gray-300 mb-4 max-w-md">
+                We're a digital agency specializing in web Designing, development, mobile apps, and creative design solutions. Let
                 us help you build your digital future.
-              </p>
+              </h1>
               <div className="flex space-x-4">
                 <a
                   href="#"
@@ -884,9 +884,7 @@ export default function DigitalAgencyWebsite() {
                 <li className="text-gray-300">markitfy.india@gmail.com</li>
                 <li className="text-gray-300">+91 97180-39346</li>
                 <li className="text-gray-300">
-                  123 Digital Street
-                  <br />
-                  Tech City, TC 12345
+                  45A, Institutional Area, Vishwas Nagar, Shahdara, Delhi, 110032
                 </li>
               </ul>
             </div>
