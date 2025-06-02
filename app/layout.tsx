@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Affordable Website Design & Development Services',
-  description: 'Professional website design and development services in Delhi. We specialize in responsive, SEO-friendly websites tailored to your business needs.',
-  keywords: 'website design Delhi,markitfy,markitfy.in,web agency near me, custom website development, responsive websites, SEO-friendly websites, small business website design,custom web app development Delhi,affordable graphic designing services,affordable SEO services Delhi',
+  title: 'Custom Website Development & Freelance Web Developer India | Markitfy',
+  description: 'Get custom website development, WordPress, and ecommerce solutions from an expert freelance web developer in India. Affordable & SEO-optimized sites.',
+  keywords: 'affordable web design, website development company, custom website design, web design for small business, SEO-friendly websites, custom web app development Delhi,affordable graphic designing services,markitfy,affordable SEO services Delhi',
   generator: 'v0.dev',
 }
 
