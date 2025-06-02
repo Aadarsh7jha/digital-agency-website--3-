@@ -745,7 +745,7 @@ export default function DigitalAgencyWebsite() {
                     </div>
                     <div>
                       <p className="text-gray-300">Phone</p>
-                      <p className="text-white font-semibold">+1 (555) 123-4567</p>
+                      <p className="text-white font-semibold">+91-97180-39346</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4 group">
@@ -769,7 +769,12 @@ export default function DigitalAgencyWebsite() {
                   >
                     <Facebook className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
                   </a>
-                 
+                  {/* <a
+                    href="#"
+                    className="bg-gray-800 hover:bg-cyan-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
+                  >
+                    <Twitter className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
+                  </a> */}
                   <a
                     href="https://www.instagram.com/markitfy.in/"
                     className="bg-gray-800 hover:bg-cyan-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
@@ -806,12 +811,12 @@ export default function DigitalAgencyWebsite() {
                 >
                   <Facebook className="h-5 w-5" />
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="text-gray-400 hover:text-cyan-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
                 >
                   <Twitter className="h-5 w-5" />
-                </a>
+                </a> */}
                 <a
                   href="#"
                   className="text-gray-400 hover:text-cyan-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
