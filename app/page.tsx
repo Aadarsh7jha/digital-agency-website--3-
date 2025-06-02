@@ -252,6 +252,9 @@ export default function DigitalAgencyWebsite() {
                 <button onClick={() => scrollToSection("testimonials")} className="nav-link hardware-accelerated">
                   Testimonials
                 </button>
+                 <button  className="nav-link hardware-accelerated">
+                  Blog
+                </button>
                 <button onClick={() => scrollToSection("contact")} className="nav-link hardware-accelerated">
                   Contact
                 </button>
@@ -294,6 +297,12 @@ export default function DigitalAgencyWebsite() {
                 className="block px-3 py-2 text-base font-medium hover:text-cyan-400 transition-colors hardware-accelerated"
               >
                 Testimonials
+              </button>
+              <button
+               
+                className="block px-3 py-2 text-base font-medium hover:text-cyan-400 transition-colors hardware-accelerated"
+              >
+                Blog
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
@@ -622,6 +631,76 @@ export default function DigitalAgencyWebsite() {
           </div>
         </div>
       </section>
+
+      <div className="py-16 bg-white">
+  <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <p className="text-sm font-medium text-indigo-600 uppercase">F.A.Q</p>
+    <h2 className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
+      Frequently Asked <span className="text-indigo-600">Questions</span>
+    </h2>
+  </div>
+
+  <div className="mt-16 max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+   
+    <div className="flex flex-col sm:flex-row items-start">
+      <div className="hidden sm:flex items-center justify-center p-3 mr-4 rounded-full bg-indigo-500 text-white border-4 border-white text-xl">
+        <svg width="30px" height="30px" fill="white" viewBox="0 0 24 24">
+          <path d="M17 9A5 5 0 0 0 7 9a1 1 0 0 0 2 0 3 3 0 1 1 3 3 1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-1.1A5 5 0 0 0 17 9z"/>
+          <circle cx="12" cy="19" r="1"/>
+        </svg>
+      </div>
+      <div className="w-full bg-gray-100 p-6 rounded-lg">
+        <h4 className="text-lg font-medium text-gray-900 mb-2"> Who is the best website developer near me?</h4>
+        <p className="text-sm text-gray-700">If you're searching for the best website developer near you, Markitfy offers expert freelance development services with fast delivery, custom design, and SEO optimization.</p>
+      </div>
+    </div>
+
+    
+    <div className="flex flex-col sm:flex-row items-start">
+      <div className="hidden sm:flex items-center justify-center p-3 mr-4 rounded-full bg-indigo-500 text-white border-4 border-white text-xl">
+        <svg width="30px" height="30px" fill="white" viewBox="0 0 24 24">
+          <path d="M17 9A5 5 0 0 0 7 9a1 1 0 0 0 2 0 3 3 0 1 1 3 3 1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-1.1A5 5 0 0 0 17 9z"/>
+          <circle cx="12" cy="19" r="1"/>
+        </svg>
+      </div>
+      <div className="w-full bg-gray-100 p-6 rounded-lg">
+        <h4 className="text-lg font-medium text-gray-900 mb-2">Which is the best web development company in Delhi?</h4>
+        <p className="text-sm text-gray-700">Markitfy is one of the best web development companies in Delhi, known for affordable pricing, high-performance websites, and personalized service from experienced developers.</p>
+      </div>
+    </div>
+
+     
+    <div className="flex flex-col sm:flex-row items-start">
+      <div className="hidden sm:flex items-center justify-center p-3 mr-4 rounded-full bg-indigo-500 text-white border-4 border-white text-xl">
+        <svg width="30px" height="30px" fill="white" viewBox="0 0 24 24">
+          <path d="M17 9A5 5 0 0 0 7 9a1 1 0 0 0 2 0 3 3 0 1 1 3 3 1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-1.1A5 5 0 0 0 17 9z"/>
+          <circle cx="12" cy="19" r="1"/>
+        </svg>
+      </div>
+      <div className="w-full bg-gray-100 p-6 rounded-lg">
+        <h4 className="text-lg font-medium text-gray-900 mb-2">Can I hire a freelance website designer in Delhi through Markitfy?</h4>
+        <p className="text-sm text-gray-700">Yes, Markitfy offers freelance website designer services in Delhi specializing in modern UI/UX, responsive layouts, and custom branding.</p>
+      </div>
+    </div>
+
+    
+    <div className="flex flex-col sm:flex-row items-start">
+      <div className="hidden sm:flex items-center justify-center p-3 mr-4 rounded-full bg-indigo-500 text-white border-4 border-white text-xl">
+        <svg width="30px" height="30px" fill="white" viewBox="0 0 24 24">
+          <path d="M17 9A5 5 0 0 0 7 9a1 1 0 0 0 2 0 3 3 0 1 1 3 3 1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-1.1A5 5 0 0 0 17 9z"/>
+          <circle cx="12" cy="19" r="1"/>
+        </svg>
+      </div>
+      <div className="w-full bg-gray-100 p-6 rounded-lg">
+        <h4 className="text-lg font-medium text-gray-900 mb-2">Why should I hire a freelance website developer instead of an agency?</h4>
+        <p className="text-sm text-gray-700">A freelance website developer provides personalized attention, faster communication, and often more cost-effective solutions — without compromising on quality or creativity.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
