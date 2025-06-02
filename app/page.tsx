@@ -234,7 +234,7 @@ export default function DigitalAgencyWebsite() {
           <div className="flex justify-between items-center h-16">
             <div className="flex gap-[10px] flex-row-reverse items-center justify-center">
               <h1 className="text-2xl font-bold h-[60px] hardware-accelerated  mt-[25px] "> MARKITFY</h1>
-              <img src='logo.jpg' alt="Markitfy Logo" className="w-[40px]" />
+              <img src='logo.jpg' alt="Markitfy Logo" className="w-[35px]" />
             </div>
 
             {/* Desktop Navigation */}
