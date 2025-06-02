@@ -877,7 +877,7 @@ export default function DigitalAgencyWebsite() {
 
 
       <a title="Chat with us on WhatsApp" className=" fixed right-[50px] bottom-[30px]  " href="https://wa.me/9718039346?text=Hi%20I'm%20interested%20in%20your%20services" target="_blank">
- <img src='WhatsApp.svg.webp'className="md:w-[40px] md:h-[40px] w-[20px] h-[20px] " />
+ <img src='WhatsApp.svg.webp'className="md:w-[40px] md:h-[40px]  " />
 </a>
 
       {/* Footer */}
