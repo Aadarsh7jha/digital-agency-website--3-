@@ -275,37 +275,37 @@ export default function DigitalAgencyWebsite() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <button
                 onClick={() => scrollToSection("home")}
-                className="block px-3 py-2 text-base font-medium hover:text-cyan-400 transition-colors hardware-accelerated"
+                className="block px-3 py-2 text-base font-medium hover:text-orange-500 transition-colors hardware-accelerated"
               >
                 Home
               </button>
               <button
                 onClick={() => scrollToSection("services")}
-                className="block px-3 py-2 text-base font-medium hover:text-cyan-400 transition-colors hardware-accelerated"
+                className="block px-3 py-2 text-base font-medium hover:text-orange-500 transition-colors hardware-accelerated"
               >
                 Services
               </button>
               <button
                 onClick={() => scrollToSection("portfolio")}
-                className="block px-3 py-2 text-base font-medium hover:text-cyan-400 transition-colors hardware-accelerated"
+                className="block px-3 py-2 text-base font-medium  hover:text-orange-500 transition-colors hardware-accelerated"
               >
                 Portfolio
               </button>
               <button
                 onClick={() => scrollToSection("testimonials")}
-                className="block px-3 py-2 text-base font-medium hover:text-cyan-400 transition-colors hardware-accelerated"
+                className="block px-3 py-2 text-base font-medium  hover:text-orange-500transition-colors hardware-accelerated"
               >
                 Testimonials
               </button>
               <button
                
-                className="block px-3 py-2 text-base font-medium hover:text-cyan-400 transition-colors hardware-accelerated"
+                className="block px-3 py-2 text-base font-medium  hover:text-orange-500 transition-colors hardware-accelerated"
               >
                 Blog
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="block px-3 py-2 text-base font-medium hover:text-cyan-400 transition-colors hardware-accelerated"
+                className="block px-3 py-2 text-base font-medium  hover:text-orange-500 transition-colors hardware-accelerated"
               >
                 Contact
               </button>
@@ -316,7 +316,7 @@ export default function DigitalAgencyWebsite() {
 
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-cyan-900/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-orange-900/20"></div>
 
         {/* Animated background particles */}
         <div className="absolute inset-0">
@@ -338,14 +338,14 @@ export default function DigitalAgencyWebsite() {
           </h1>
           <Button
             onClick={() => scrollToSection("contact")}
-            className="btn-gradient text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 animate-fade-in-up animation-delay-400 hardware-accelerated hover:shadow-2xl hover:shadow-cyan-500/25"
+            className="btn-gradient text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 animate-fade-in-up animation-delay-400 hardware-accelerated hover:shadow-2xl hover:shadow-orange-500/25"
           >
             Get Started <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
 
         {/* Animated background elements */}
-        <div className="absolute top-20 left-10 w-20 h-20 bg-cyan-500/10 rounded-full animate-float hardware-accelerated"></div>
+        <div className="absolute top-20 left-10 w-20 h-20 bg-orange-500/10 rounded-full animate-float hardware-accelerated"></div>
         <div className="absolute bottom-20 right-10 w-32 h-32 bg-purple-500/10 rounded-full animate-float animation-delay-1000 hardware-accelerated"></div>
         <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-pink-500/10 rounded-full animate-float animation-delay-2000 hardware-accelerated"></div>
       </section>
@@ -374,8 +374,8 @@ export default function DigitalAgencyWebsite() {
             {services.map((service, index) => (
               <Card
                 key={index}
-                className={`service-card bg-gray-900/50 border-gray-800 hover:border-cyan-500/50 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20 ${
-                  service.featured ? "ring-2 ring-cyan-500/30" : ""
+                className={`service-card bg-gray-900/50 border-gray-800 hover:border-orange-500/50 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20 ${
+                  service.featured ? "ring-2 ring-orange-500/30" : ""
                 } ${visibleElements.has(`service-${index}`) ? "animate-slide-in-bottom hardware-accelerated" : "opacity-0 translate-y-10"}`}
                 data-animate
                 id={`service-${index}`}
@@ -384,11 +384,11 @@ export default function DigitalAgencyWebsite() {
                 <CardContent className="p-6">
                   <div
                     className={`inline-flex p-3 rounded-lg mb-4 transition-all duration-300 ${
-                      service.featured ? "bg-gradient-to-r from-cyan-500/20 to-purple-500/20" : "bg-gray-800"
+                      service.featured ? "bg-gradient-to-r from-orange-500/20 to-purple-500/20" : "bg-gray-800"
                     }`}
                   >
                     <div
-                      className={`${service.featured ? "text-cyan-400" : "text-gray-400"} animate-bounce-gentle hardware-accelerated`}
+                      className={`${service.featured ? "text-orange-400" : "text-gray-400"} animate-bounce-gentle hardware-accelerated`}
                     >
                       {service.icon}
                     </div>
@@ -397,7 +397,7 @@ export default function DigitalAgencyWebsite() {
                   <p className="text-gray-300">{service.description}</p>
                   {service.featured && (
                     <div className="mt-4">
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-cyan-500/20 text-cyan-400 animate-pulse hardware-accelerated">
+                      <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-orange-500/20 text-orange-400 animate-pulse hardware-accelerated">
                         Featured Service
                       </span>
                     </div>
@@ -431,7 +431,7 @@ export default function DigitalAgencyWebsite() {
             {whyChooseUs.map((reason, index) => (
               <div
                 key={index}
-                className={`flex items-center space-x-4 p-6 bg-gray-900/50 rounded-lg border border-gray-800 hover:border-cyan-500/50 transition-all duration-500 hover:transform hover:scale-105 ${
+                className={`flex items-center space-x-4 p-6 bg-gray-900/50 rounded-lg border border-gray-800 hover:border-orange-500/50 transition-all duration-500 hover:transform hover:scale-105 ${
                   visibleElements.has(`reason-${index}`)
                     ? "animate-slide-in-left hardware-accelerated"
                     : "opacity-0 -translate-x-10"
@@ -440,7 +440,7 @@ export default function DigitalAgencyWebsite() {
                 id={`reason-${index}`}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <CheckCircle className="h-6 w-6 text-cyan-400 flex-shrink-0 animate-pulse hardware-accelerated" />
+                <CheckCircle className="h-6 w-6 text-orange-400 flex-shrink-0 animate-pulse hardware-accelerated" />
                 <span className="text-gray-300">{reason}</span>
               </div>
             ))}
@@ -475,7 +475,7 @@ export default function DigitalAgencyWebsite() {
                   onClick={() => setActiveFilter(category.id)}
                   className={`px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 hardware-accelerated ${
                     activeFilter === category.id
-                      ? "btn-gradient text-white shadow-lg shadow-cyan-500/25"
+                      ? "btn-gradient text-white shadow-lg shadow-orange-500/25"
                       : "bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white"
                   }`}
                 >
@@ -490,7 +490,7 @@ export default function DigitalAgencyWebsite() {
             {filteredPortfolio.map((item, index) => (
               <div
                 key={`${item.title}-${index}`}
-                className={`portfolio-item group relative overflow-hidden rounded-xl bg-gray-900 border border-gray-800 hover:border-cyan-500/50 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20 ${
+                className={`portfolio-item group relative overflow-hidden rounded-xl bg-gray-900 border border-gray-800 hover:border-orange-500/50 transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/20 ${
                   visibleElements.has(`portfolio-${index}`)
                     ? "animate-zoom-in hardware-accelerated"
                     : "opacity-0 scale-95"
@@ -509,10 +509,10 @@ export default function DigitalAgencyWebsite() {
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500">
                     <div className="absolute inset-0 flex items-center justify-center space-x-4">
-                      <button className="p-3 bg-cyan-500/20 backdrop-blur-sm rounded-full text-cyan-400 hover:bg-cyan-500/30 transition-all duration-300 transform hover:scale-110 hardware-accelerated">
+                      <button className="p-3 bg-orange-500/20 backdrop-blur-sm rounded-full text-orange-400 hover:bg-orange-500/30 transition-all duration-300 transform hover:scale-110 hardware-accelerated">
                         <Eye className="h-5 w-5" />
                       </button>
-                      <button className="p-3 bg-purple-500/20 backdrop-blur-sm rounded-full text-purple-400 hover:bg-purple-500/30 transition-all duration-300 transform hover:scale-110 hardware-accelerated">
+                      <button className="p-3 bg-purple-500/20 backdrop-blur-sm rounded-full text-orange-400 hover:bg-purple-500/30 transition-all duration-300 transform hover:scale-110 hardware-accelerated">
                         <ExternalLink className="h-5 w-5" />
                       </button>
                     </div>
@@ -520,7 +520,7 @@ export default function DigitalAgencyWebsite() {
 
                   {/* Category Badge */}
                   <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 bg-black/70 backdrop-blur-sm rounded-full text-xs font-medium text-cyan-400 border border-cyan-500/30">
+                    <span className="px-3 py-1 bg-black/70 backdrop-blur-sm rounded-full text-xs font-medium text-orange-400 border border-orange-500/30">
                       {item.category.charAt(0).toUpperCase() + item.category.slice(1)}
                     </span>
                   </div>
@@ -528,7 +528,7 @@ export default function DigitalAgencyWebsite() {
 
                 {/* Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-cyan-400 transition-colors duration-300">
+                  <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-orange-400 transition-colors duration-300">
                     {item.title}
                   </h3>
                   <p className="text-gray-400 text-sm mb-4">{item.description}</p>
@@ -538,7 +538,7 @@ export default function DigitalAgencyWebsite() {
                     {item.tags.map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
-                        className="px-2 py-1 bg-gray-800 text-gray-300 text-xs rounded-md hover:bg-cyan-500/20 hover:text-cyan-400 transition-all duration-300 hardware-accelerated"
+                        className="px-2 py-1 bg-gray-800 text-gray-300 text-xs rounded-md hover:bg-orange-500/20 hover:text-orange-400 transition-all duration-300 hardware-accelerated"
                       >
                         {tag}
                       </span>
@@ -548,7 +548,7 @@ export default function DigitalAgencyWebsite() {
 
                 {/* Animated border */}
                 <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-500 animate-gradient-x opacity-20 hardware-accelerated"></div>
+                  <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-orange-500 via-purple-500 to-orange-500 animate-gradient-x opacity-20 hardware-accelerated"></div>
                 </div>
               </div>
             ))}
@@ -556,7 +556,7 @@ export default function DigitalAgencyWebsite() {
 
           {/* Load More Button */}
           <div className="text-center mt-12">
-            <Button className="btn-gradient text-white px-8 py-3 font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/25 hardware-accelerated">
+            <Button className="btn-gradient text-white px-8 py-3 font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-orange-500/25 hardware-accelerated">
               View More Projects
             </Button>
           </div>
@@ -582,7 +582,7 @@ export default function DigitalAgencyWebsite() {
           </div>
 
           <div className="relative">
-            <Card className="bg-gray-900/50 border-gray-800 hover:border-cyan-500/30 transition-all duration-500 transform hover:scale-105">
+            <Card className="bg-gray-900/50 border-gray-800 hover:border-orange-500/30 transition-all duration-500 transform hover:scale-105">
               <CardContent className="p-8 text-center">
                 <div className="flex justify-center mb-4">
                   {[...Array(testimonials[currentTestimonial].rating)].map((_, i) => (
@@ -598,7 +598,7 @@ export default function DigitalAgencyWebsite() {
                 </p>
                 <div className="animate-slide-in-bottom hardware-accelerated">
                   <h4 className="text-xl font-semibold text-white">{testimonials[currentTestimonial].name}</h4>
-                  <p className="text-cyan-400">{testimonials[currentTestimonial].company}</p>
+                  <p className="text-orange-400">{testimonials[currentTestimonial].company}</p>
                 </div>
               </CardContent>
             </Card>
@@ -623,7 +623,7 @@ export default function DigitalAgencyWebsite() {
                 key={index}
                 onClick={() => setCurrentTestimonial(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentTestimonial ? "bg-cyan-400 scale-125" : "bg-gray-600 hover:bg-gray-500"
+                  index === currentTestimonial ? "bg-orange-400 scale-125" : "bg-gray-600 hover:bg-gray-500"
                 }`}
               />
             ))}
@@ -731,7 +731,7 @@ export default function DigitalAgencyWebsite() {
               data-animate
               id="contact-form"
             >
-              <Card className="bg-gray-900/50 border-gray-800 hover:border-cyan-500/30 transition-all duration-500">
+              <Card className="bg-gray-900/50 border-gray-800 hover:border-orange-500/30 transition-all duration-500">
                 <CardContent className="p-8">
                   <form className="space-y-6" action="https://api.web3forms.com/submit" method="POST">
                   <input type="hidden" name="access_key" value="46f52146-9254-4092-b088-d67ce2f8f356"></input>
@@ -742,7 +742,7 @@ export default function DigitalAgencyWebsite() {
                         name="Name"
                         required
                           type="text"
-                          className="bg-gray-800 border-gray-700 text-white focus:border-cyan-500 transition-all duration-300"
+                          className="bg-gray-800 border-gray-700 text-white focus:border-orange-500 transition-all duration-300"
                           placeholder="Your name"
                         />
                       </div>
@@ -752,7 +752,7 @@ export default function DigitalAgencyWebsite() {
                         required
                         name="Email"
                           type="email"
-                          className="bg-gray-800 border-gray-700 text-white focus:border-cyan-500 transition-all duration-300"
+                          className="bg-gray-800 border-gray-700 text-white focus:border-orange-500 transition-all duration-300"
                           placeholder="your@email.com"
                         />
                       </div>
@@ -763,13 +763,13 @@ export default function DigitalAgencyWebsite() {
                       required
                       name="Phone Number"
                         type="tel"
-                        className="bg-gray-800 border-gray-700 text-white focus:border-cyan-500 transition-all duration-300"
+                        className="bg-gray-800 border-gray-700 text-white focus:border-orange-500 transition-all duration-300"
                         placeholder="Your phone number"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-300 mb-2">Service Interested In</label>
-                      <select name="service" required className="w-full bg-gray-800 border border-gray-700 text-white rounded-md px-3 py-2 focus:border-cyan-500 focus:outline-none transition-all duration-300">
+                      <select name="service" required className="w-full bg-gray-800 border border-gray-700 text-white rounded-md px-3 py-2 focus:border-orange-500 focus:outline-none transition-all duration-300">
                         <option value="">Select a service</option>
                         <option value="web-development">Web Development</option>
                         <option value="web-apps">Web Apps</option>
@@ -784,11 +784,11 @@ export default function DigitalAgencyWebsite() {
                       <Textarea
                       required
                       name="Message"
-                        className="bg-gray-800 border-gray-700 text-white focus:border-cyan-500 min-h-[120px] transition-all duration-300"
+                        className="bg-gray-800 border-gray-700 text-white focus:border-orange-500 min-h-[120px] transition-all duration-300"
                         placeholder="Tell us about your project..."
                       />
                     </div>
-                    <Button type="submit" className="w-full btn-gradient text-white py-3 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/25 hardware-accelerated">
+                    <Button type="submit" className="w-full btn-gradient text-white py-3 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-orange-500/25 hardware-accelerated">
                       Send Message
                     </Button>
                   </form>
@@ -809,8 +809,8 @@ export default function DigitalAgencyWebsite() {
                 <h3 className="text-2xl font-semibold mb-6 text-white">Contact Information</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4 group">
-                    <div className="bg-cyan-500/20 p-3 rounded-lg group-hover:bg-cyan-500/30 transition-all duration-300 hardware-accelerated">
-                      <Mail className="h-6 w-6 text-cyan-400" />
+                    <div className="bg-orange-500/20 p-3 rounded-lg group-hover:bg-orange-500/30 transition-all duration-300 hardware-accelerated">
+                      <Mail className="h-6 w-6 text-orange-400" />
                     </div>
                     <div>
                       <p className="text-gray-300">Email</p>
@@ -818,8 +818,8 @@ export default function DigitalAgencyWebsite() {
                     </div>
                   </div>
                   <div className="flex items-center space-x-4 group">
-                    <div className="bg-cyan-500/20 p-3 rounded-lg group-hover:bg-cyan-500/30 transition-all duration-300 hardware-accelerated">
-                      <Phone className="h-6 w-6 text-cyan-400" />
+                    <div className="bg-orange-500/20 p-3 rounded-lg group-hover:bg-orange-500/30 transition-all duration-300 hardware-accelerated">
+                      <Phone className="h-6 w-6 text-orange-400" />
                     </div>
                     <div>
                       <p className="text-gray-300">Phone</p>
@@ -827,8 +827,8 @@ export default function DigitalAgencyWebsite() {
                     </div>
                   </div>
                   <div className="flex items-center space-x-4 group">
-                    <div className="bg-cyan-500/20 p-3 rounded-lg group-hover:bg-cyan-500/30 transition-all duration-300 hardware-accelerated">
-                      <MapPin className="h-6 w-6 text-cyan-400" />
+                    <div className="bg-orange-500/20 p-3 rounded-lg group-hover:bg-orange-500/30 transition-all duration-300 hardware-accelerated">
+                      <MapPin className="h-6 w-6 text-orange-400" />
                     </div>
                     <div>
                       <p className="text-gray-300">Address</p>
@@ -843,27 +843,27 @@ export default function DigitalAgencyWebsite() {
                 <div className="flex space-x-4">
                   <a
                     href="#"
-                    className="bg-gray-800 hover:bg-cyan-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
+                    className="bg-gray-800 hover:bg-orange-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
                   >
-                    <Facebook className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
+                    <Facebook className="h-6 w-6 text-gray-400 hover:text-orange-400" />
                   </a>
                   {/* <a
                     href="#"
-                    className="bg-gray-800 hover:bg-cyan-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
+                    className="bg-gray-800 hover:bg-orange-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
                   >
-                    <Twitter className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
+                    <Twitter className="h-6 w-6 text-gray-400 hover:text-orange-400" />
                   </a> */}
                   <a
                     href="https://www.instagram.com/markitfy.in/"
-                    className="bg-gray-800 hover:bg-cyan-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
+                    className="bg-gray-800 hover:bg-orange-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
                   >
-                    <Instagram className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
+                    <Instagram className="h-6 w-6 text-gray-400 hover:text-orange-400" />
                   </a>
                   <a
                     href="#"
-                    className="bg-gray-800 hover:bg-cyan-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
+                    className="bg-gray-800 hover:bg-orange-500/20 p-3 rounded-lg transition-all duration-300 transform hover:scale-110 hover:shadow-lg hardware-accelerated"
                   >
-                    <Linkedin className="h-6 w-6 text-gray-400 hover:text-cyan-400" />
+                    <Linkedin className="h-6 w-6 text-gray-400 hover:text-orange-400" />
                   </a>
                 </div>
               </div>
@@ -892,25 +892,25 @@ export default function DigitalAgencyWebsite() {
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-cyan-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
+                  className="text-gray-400 hover:text-orange-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
                 >
                   <Facebook className="h-5 w-5" />
                 </a>
                 {/* <a
                   href="#"
-                  className="text-gray-400 hover:text-cyan-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
+                  className="text-gray-400 hover:text-orange-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
                 >
                   <Twitter className="h-5 w-5" />
                 </a> */}
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-cyan-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
+                  className="text-gray-400 hover:text-orange-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
                 >
                   <Instagram className="h-5 w-5" />
                 </a>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-cyan-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
+                  className="text-gray-400 hover:text-orange-400 transition-all duration-300 transform hover:scale-110 hardware-accelerated"
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
@@ -923,7 +923,7 @@ export default function DigitalAgencyWebsite() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 hardware-accelerated"
+                    className="text-gray-300 hover:text-orange-400 transition-colors duration-300 hardware-accelerated"
                   >
                     Web Development
                   </a>
@@ -931,7 +931,7 @@ export default function DigitalAgencyWebsite() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 hardware-accelerated"
+                    className="text-gray-300 hover:text-orange-400 transition-colors duration-300 hardware-accelerated"
                   >
                     Web Apps
                   </a>
@@ -939,7 +939,7 @@ export default function DigitalAgencyWebsite() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 hardware-accelerated"
+                    className="text-gray-300 hover:text-orange-400 transition-colors duration-300 hardware-accelerated"
                   >
                     Mobile Apps
                   </a>
@@ -947,7 +947,7 @@ export default function DigitalAgencyWebsite() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 hardware-accelerated"
+                    className="text-gray-300 hover:text-orange-400 transition-colors duration-300 hardware-accelerated"
                   >
                     Digital Marketing
                   </a>
@@ -955,7 +955,7 @@ export default function DigitalAgencyWebsite() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 hardware-accelerated"
+                    className="text-gray-300 hover:text-orange-400 transition-colors duration-300 hardware-accelerated"
                   >
                     Design Services
                   </a>

@@ -411,7 +411,7 @@
 }
 
 .animate-gradient-x {
-  background: linear-gradient(-45deg, #06b6d4, #8b5cf6, #06b6d4, #8b5cf6);
+  background: linear-gradient(45deg, #ec8b56, #e65405);
   background-size: 400% 400%;
   -webkit-animation: gradient-shift 3s ease infinite;
   animation: gradient-shift 3s ease infinite;
@@ -419,8 +419,8 @@
 
 /* Fallback for browsers that don't support background-clip: text */
 .animate-gradient-x {
-  background: -webkit-linear-gradient(-45deg, #06b6d4, #8b5cf6, #06b6d4, #8b5cf6);
-  background: linear-gradient(-45deg, #06b6d4, #8b5cf6, #06b6d4, #8b5cf6);
+ background: -webkit-linear-gradient(45deg, #ec8b56, #e65405);
+  background: linear-gradient(45deg, #ec8b56, #e65405);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -516,9 +516,9 @@ html {
   height: 2px;
   bottom: -5px;
   left: 50%;
-  background: #22d3ee;
-  background: -webkit-linear-gradient(90deg, #06b6d4, #8b5cf6);
-  background: linear-gradient(90deg, #06b6d4, #8b5cf6);
+ background: rgb(181, 69, 28);
+ background: -webkit-linear-gradient(45deg, #ec8b56, #e65405);
+  background: linear-gradient(45deg, #ec8b56, #e65405);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   -webkit-transform: translateX(-50%);
@@ -715,8 +715,8 @@ html {
 
 /* Gradient Text Fallback for Better Browser Support */
 .gradient-text {
-  background: -webkit-linear-gradient(45deg, #06b6d4, #8b5cf6);
-  background: linear-gradient(45deg, #06b6d4, #8b5cf6);
+  background: -webkit-linear-gradient(45deg, #e65405, #ec8b56);
+  background: linear-gradient(45deg, #e67d05, #e9a078);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -734,9 +734,9 @@ html {
 
 /* Enhanced Button Styles with Better Browser Support */
 .btn-gradient {
-  background: #06b6d4;
-  background: -webkit-linear-gradient(45deg, #06b6d4, #8b5cf6);
-  background: linear-gradient(45deg, #06b6d4, #8b5cf6);
+  background: orange;
+ background: -webkit-linear-gradient(45deg, #e65405, #ff7b34);
+  background: linear-gradient(45deg, #e67d05, #e9a078);
   border: none;
   color: white;
   -webkit-transition: all 0.3s ease;
@@ -744,9 +744,9 @@ html {
 }
 
 .btn-gradient:hover {
-  background: #0891b2;
-  background: -webkit-linear-gradient(45deg, #0891b2, #7c3aed);
-  background: linear-gradient(45deg, #0891b2, #7c3aed);
+  background: rgb(181, 69, 28);
+ background: -webkit-linear-gradient(45deg, #ec8b56, #e65405);
+  background: linear-gradient(45deg, #ec8b56, #e65405);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   -webkit-box-shadow: 0 10px 25px rgba(34, 211, 238, 0.25);
