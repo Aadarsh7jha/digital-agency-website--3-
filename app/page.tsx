@@ -224,7 +224,7 @@ export default function DigitalAgencyWebsite() {
 
 
 
-    <link rel="icon" type="image/png" href="logo.jpg"></link>
+    <link rel="icon" type="image/png" href="abcde.jpg"></link>
      
 
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
@@ -233,8 +233,7 @@ export default function DigitalAgencyWebsite() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex gap-[10px] flex-row-reverse items-center justify-center">
-              <h1 className="text-2xl font-bold h-[57px] hardware-accelerated mt-[30px] md:mt-[25px] "> MARKITFY</h1>
-              <img src='logo.jpg' alt="Markitfy Logo" className="w-[35px]" />
+              <img src='ab.png' alt="Markitfy Logo" className="w-[235px] bg-transparent" />
             </div>
 
             {/* Desktop Navigation */}
